@@ -1,7 +1,7 @@
 # Struktur Organisasi
 
 ## 👩‍💼 Ketua
-- **Nama:** Elka
+- **Nama:** [@Elka](https://github.com/Fadel1106)
 - **Tugas:** Memimpin organisasi, mengambil keputusan strategis, dan mewakili organisasi secara resmi.
 
 ## 🤝 Wakil Ketua
