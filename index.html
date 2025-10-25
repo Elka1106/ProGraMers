@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Halaman Utama - Dark Green Theme</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0b3d0b; /* dark green background */
+      color: #cbe4b4; /* light green text */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 10px;
+      text-shadow: 0 0 5px #7bc67e;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .link-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      max-width: 800px;
+    }
+    a.button-link {
+      background: #2f662f;
+      border: 2px solid #7bc67e;
+      border-radius: 8px;
+      color: #cbe4b4;
+      text-decoration: none;
+      padding: 15px 30px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      box-shadow: 0 0 10px #2f662f;
+      transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+      display: inline-block;
+      min-width: 150px;
+      text-align: center;
+      user-select: none;
+    }
+    a.button-link:hover,
+    a.button-link:focus {
+      background: #7bc67e;
+      color: #0b3d0b;
+      box-shadow: 0 0 25px #a8d5a8;
+      transform: scale(1.05);
+      outline: none;
+    }
+    a.button-link:active {
+      transform: scale(0.95);
+      box-shadow: 0 0 10px #5a9a5a;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #7bc67e;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Selamat Datang</h1>
+  <p>Klik tombol di bawah untuk membuka website lain di GitHub</p>
+  <div class="link-container">
+    <a href="https://fadel1106.github.io/ProGraMers/Website/index.html" class="button-link" target="_blank" rel="noopener">Website Repo 1</a>
+    <a href="https://username.github.io/namarepo2/" class="button-link" target="_blank" rel="noopener">Website Repo 2</a>
+    <a href="https://username.github.io/namarepo3/" class="button-link" target="_blank" rel="noopener">Website Repo 3</a>
+    <a href="https://username.github.io/namarepo4/" class="button-link" target="_blank" rel="noopener">Website Repo 4</a>
+    <a href="https://username.github.io/namarepo5/" class="button-link" target="_blank" rel="noopener">Website Repo 5</a>
+  </div>
+  <footer>
+    &copy; 2025 Halaman Utama GitHub - Tema Dark Green
+  </footer>
+</body>
+</html>
