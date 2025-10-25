@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maintenance Mode</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #0b3d0b, #2f662f);
+      color: #cbe4b4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 20px;
+      user-select: none;
+    }
+    .container {
+      max-width: 500px;
+      padding: 30px;
+      background-color: rgba(15, 55, 15, 0.85);
+      border-radius: 15px;
+      box-shadow: 0 0 25px #4b7e4b;
+    }
+    h1 {
+      margin-bottom: 10px;
+      font-size: 3rem;
+      text-shadow: 0 0 10px #7bc67e;
+    }
+    p {
+      font-size: 1.25rem;
+      margin-bottom: 25px;
+      line-height: 1.6;
+    }
+    .emoji {
+      font-size: 5rem;
+      margin-bottom: 15px;
+      user-select: none;
+    }
+    .button {
+      background-color: #7bc67e;
+      color: #0b3d0b;
+      font-weight: bold;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 0 15px #a8d5a8;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      user-select: none;
+    }
+    .button:hover,
+    .button:focus {
+      background-color: #a8d5a8;
+      outline: none;
+      transform: scale(1.05);
+    }
+    .button:active {
+      transform: scale(0.95);
+      box-shadow: 0 0 10px #5a9a5a;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #7bc67e;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="main" aria-labelledby="maintenance-title">
+    <div class="emoji" aria-hidden="true">🛠️</div>
+    <h1 id="maintenance-title">Website dalam Pemeliharaan</h1>
+    <p>Maaf atas ketidaknyamanan ini. Saat ini kami sedang melakukan pemeliharaan untuk meningkatkan layanan kami.<br/>Silakan coba kembali beberapa saat lagi.</p>
+    <button class="button" onclick="location.reload()" aria-label="Muat ulang halaman">Muat Ulang</button>
+    <footer>© 2025 Situs Anda - Maintenance Mode</footer>
+  </div>
+</body>
+</html>
