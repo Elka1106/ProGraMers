@@ -12,6 +12,9 @@ Bahasa pemrograman adalah **alat untuk berkomunikasi dengan komputer** yang terd
 
 # 📝 Input, Proses, Output (IPO)
 
+<img width="660" height="153" alt="image" src="https://github.com/user-attachments/assets/724e4934-81e2-456f-ab91-5ba1eff16360" />
+
+
 ## 📥 INPUT
 **Data yang masuk ke program**
 ```python
