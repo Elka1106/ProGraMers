@@ -102,7 +102,7 @@ global_var = "I am global"
 
 def my_function():
     print(global
-
+```
 ---
 
 ## Kesimpulan
