@@ -10,28 +10,43 @@ Bahasa pemrograman adalah **alat untuk berkomunikasi dengan komputer** yang terd
 2. **Semantic** - Makna dari kode yang ditulis
 3. **Compiler/Interpreter** - Penerjemah kode ke bahasa mesin
 
-## 📝 Struktur Dasar Program
+# 📝 Input, Proses, Output (IPO)
 
-### Contoh Struktur Sederhana:
+## 📥 INPUT
+**Data yang masuk ke program**
 ```python
-# Program menghitung luas persegi
-
-# 1. Input
-panjang = 10
-lebar = 5
-
-# 2. Proses
-luas = panjang * lebar
-
-# 3. Output
-print("Luas persegi:", luas)
+nama = input("Nama: ")
+umur = int(input("Umur: "))
 ```
 
-### Komponen Penting:
-- **Variabel** - Tempat menyimpan data
-- **Input** - Menerima data dari pengguna
-- **Proses** - Melakukan perhitungan/operasi
-- **Output** - Menampilkan hasil
+## ⚙️ PROSES
+**Pengolahan data**
+```python
+tahun_lahir = 2024 - umur
+status = "Dewasa" if umur >= 17 else "Anak"
+```
+
+## 📤 OUTPUT
+**Hasil yang ditampilkan**
+```python
+print(f"Halo {nama}, lahir tahun {tahun_lahir}")
+print(f"Status: {status}")
+```
+
+## 🔄 CONTOH SINGKAT
+```python
+# Input
+panjang = 5
+lebar = 3
+
+# Proses  
+luas = panjang * lebar
+
+# Output
+print("Luas:", luas)  # Output: Luas: 15
+```
+
+**Inti:** Semua program komputer mengikuti pola: Terima data → Olah data → Tampilkan hasil.
 
 ## 🔢 Tipe Data Dasar
 
