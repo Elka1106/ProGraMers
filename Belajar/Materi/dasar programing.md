@@ -9,70 +9,99 @@ Bahasa pemrograman adalah cara untuk berkomunikasi dengan komputer agar komputer
 
 ---
 
-## Konsep Dasar dalam Pemrograman
+# Materi Pembelajaran: Variabel dalam Pemrograman
 
-### 1. Variabel
+## 📚 Daftar Isi
+- [Konsep Dasar Variabel](#konsep-dasar-variabel)
+- [Deklarasi dan Inisialisasi](#deklarasi-dan-inisialisasi)
+- [Tipe Data Variabel](#tipe-data-variabel)
+- [Scope Variabel](#scope-variabel)
+- [Best Practices](#best-practices)
+- [Contoh Kode](#contoh-kode)
+- [Latihan Soal](#latihan-soal)
 
-Variabel adalah tempat untuk menyimpan data sementara dalam program.
+## 🎯 Konsep Dasar Variabel
 
-Contoh:
+### Apa itu Variabel?
+Variabel adalah **penyimpanan bernama** dalam memori komputer yang digunakan untuk menyimpan data yang dapat berubah selama eksekusi program.
 
-nama = "Budi"
-umur = 20
+### Analogi Sederhana
+Bayangkan variabel seperti **kotak penyimpanan** yang memiliki:
+- **Nama** (identifier)
+- **Isi** (nilai/data)
+- **Jenis** (tipe data)
 
+## 📝 Deklarasi dan Inisialisasi
 
-### 2. Tipe Data
+### Deklarasi Variabel
+Mendeklarasikan variabel berarti memberitahu komputer untuk menyiapkan tempat di memori.
 
-Jenis data yang biasa digunakan:
+**Syntax Umum:**
+```python
+nama_variabel = nilai
+```
 
-- **Integer**: angka bulat (contoh: 10, 25, 100)
-- **String**: teks atau kalimat (contoh: "Halo", "Belajar")
-- **Boolean**: nilai benar/salah (True/False)
+**Contoh:**
+```python
+# Deklarasi variabel
+nama = "Alice"
+umur = 25
+tinggi = 165.5
+is_student = True
+```
 
-### 3. Operator
+### Inisialisasi Variabel
+Memberikan nilai awal kepada variabel.
 
-Digunakan untuk melakukan operasi matematika atau logika.
+```python
+# Inisialisasi langsung
+x = 10
+y = "Hello World"
 
-Contoh operator matematika:
-- Tambah: `+`
-- Kurang: `-`
-- Kali: `*`
-- Bagi: `/`
+# Inisialisasi multiple
+a, b, c = 1, 2, 3
 
-### 4. Struktur Kontrol
+# Inisialisasi dengan nilai sama
+x = y = z = 0
+```
 
-Untuk mengatur alur program, seperti pengambilan keputusan dan pengulangan.
+## 🔢 Tipe Data Variabel
 
-#### a. Percabangan (If)
+### Tipe Data Primitive
 
-Menjalankan kode jika kondisi terpenuhi.
+| Tipe Data | Contoh | Keterangan |
+|-----------|--------|------------|
+| **Integer** | `age = 25` | Bilangan bulat |
+| **Float** | `price = 19.99` | Bilangan desimal |
+| **String** | `name = "John"` | Teks/karakter |
+| **Boolean** | `is_active = True` | True/False |
 
-if umur >= 17:
-    print("Anda sudah dewasa")
-else:
-    print("Anda masih anak-anak")
+### Tipe Data Collection
 
+```python
+# List (mutable)
+numbers = [1, 2, 3, 4, 5]
 
-#### b. Perulangan (Loop)
+# Tuple (immutable)
+coordinates = (10.5, 20.3)
 
-Menjalankan kode berulang kali.
+# Dictionary (key-value pairs)
+student = {"name": "Budi", "age": 20}
 
+# Set (unique values)
+unique_numbers = {1, 2, 3, 3, 4}  # Hasil: {1, 2, 3, 4}
+```
 
-for i in range(5):
-    print("Perulangan ke-", i)
+## 🎪 Scope Variabel
 
+### Global Scope
+Variabel yang dapat diakses dari mana saja dalam program.
 
-## Contoh Program Sederhana
+```python
+global_var = "I am global"
 
-
-nama = input("Masukkan nama Anda: ")
-umur = int(input("Masukkan umur Anda: "))
-
-if umur >= 17:
-    print("Halo", nama, ", Anda sudah dewasa.")
-else:
-    print("Halo", nama, ", Anda masih anak-anak.")
-
+def my_function():
+    print(global
 
 ---
 
