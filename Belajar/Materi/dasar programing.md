@@ -1,4 +1,4 @@
-```markdown
+
 # Materi Dasar Bahasa Pemrograman untuk Pemula
 
 ---
@@ -16,10 +16,10 @@ Bahasa pemrograman adalah cara untuk berkomunikasi dengan komputer agar komputer
 Variabel adalah tempat untuk menyimpan data sementara dalam program.
 
 Contoh:
-```
+
 nama = "Budi"
 umur = 20
-```
+
 
 ### 2. Tipe Data
 
@@ -47,27 +47,24 @@ Untuk mengatur alur program, seperti pengambilan keputusan dan pengulangan.
 
 Menjalankan kode jika kondisi terpenuhi.
 
-```
 if umur >= 17:
     print("Anda sudah dewasa")
 else:
     print("Anda masih anak-anak")
-```
+
 
 #### b. Perulangan (Loop)
 
 Menjalankan kode berulang kali.
 
-```
+
 for i in range(5):
     print("Perulangan ke-", i)
-```
 
----
 
 ## Contoh Program Sederhana
 
-```
+
 nama = input("Masukkan nama Anda: ")
 umur = int(input("Masukkan umur Anda: "))
 
@@ -75,7 +72,7 @@ if umur >= 17:
     print("Halo", nama, ", Anda sudah dewasa.")
 else:
     print("Halo", nama, ", Anda masih anak-anak.")
-```
+
 
 ---
 
@@ -87,8 +84,3 @@ else:
 - Struktur kontrol mengatur jalannya program
 
 ---
-
-## Selamat Belajar Pemrograman!
-```
-
-Apakah kamu ingin materi ini dibuat untuk bahasa pemrograman tertentu seperti Python atau JavaScript?
